@@ -112,11 +112,11 @@ h2 {
 /*Between 660 and 780px*/
 @media screen and (min-width: 660px) and (max-width: 780px) {
   .wrapper {
-    width: 660px;
+    width: 655px;
   }
 
   #anvil-image {
-    max-width: 660px;
+    max-width: 655px;
   }
 
   .header-nav a   {
