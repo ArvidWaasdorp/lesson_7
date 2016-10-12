@@ -32,28 +32,26 @@ body {
 
 .header-nav a   {
   color: #A19C96;
-  font-size: 1.6em;
+  font-size: 24px;
   text-decoration: none;
   font-weight: bold;
 }
 
 .anvil {
-  position: absolute;
   padding-top: 20px;
   display: block;
+  padding-bottom: 20px;
 }
 
 h2 {
   font-weight: normal;
-  font-size: 1.5em;
+  font-size: 24px;
   padding-bottom: 10px;
 }
 
 .text-block {
-  position: absolute;
   width: 100%;
   display: block;
-  top: 450px;
   font-size: 11px;
   word-wrap: normal;
 
@@ -124,5 +122,9 @@ h2 {
 
   #anvil-image {
     display: none;
+  }
+
+  .text-block1, .text-block2 {
+    float: none;
   }
 }
